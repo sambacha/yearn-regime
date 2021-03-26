@@ -1,0 +1,36 @@
+import Features from 'components/features';
+
+# Documentation
+
+<Features />
+
+```ts
+<%  %>
+const contractAddresses = {
+<%	{contractName}: '{{contractAddress}}',  %>
+};
+
+export default contractAddresses;
+```
+
+## Quick Start
+  
+## Packages
+
+### Published
+|   Package   |   Version   |   Description   |
+-----------------------------------------------
+|[`name`](/packages/path) | [![npm](https://img.shields.io/npm/v/name.svg)](https://www.npmjs.com/package/name) | a description |
+
+
+### Private
+|   Package   |   Description   |
+---------------------------------
+|[`name`](/packages/path) | a description |
+
+### Contracts (Ethereum)
+| Contract Name | Address | Version |
+| ------------- | ------- | ------- |
+{{#network.addresses}}
+| {{name}} | {{address}} | {{version}} |
+{{/network.addresses}} 
